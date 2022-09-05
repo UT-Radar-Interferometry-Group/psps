@@ -8,15 +8,9 @@ This is research code provided to you "as is" with NO WARRANTIES OF CORRECTNESS.
 PSPS requires Python3.6+ to run.
 Clone to build/install
 ```
+git submodule update --init --recursive
 pip install -e .
 ```
-To obtain the pybind11 headers (included as a submodule)
-
-`git submodule update --init --recursive`
-
-https://pybind11.readthedocs.io/en/stable/installing.html#include-as-a-submodule
-
-These will be located in the `extern` folder
 
 ## Tutorial in Jupyter Notebook
 [A tutorial](tests/tutorial.ipynb) is provided to demonstrate how to select PS pixels using the PSPS package.
