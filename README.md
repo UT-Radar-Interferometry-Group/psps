@@ -13,5 +13,5 @@ pip install -e .
 ```
 
 ## Tutorial in Jupyter Notebook
-[How to select PS pixels using the PSPS package] (tests/tutorial.ipynb)
-[Description on the supported data format] (tests/data_format.ipynb)
+[How to select PS pixels using the PSPS package](tests/tutorial.ipynb)
+[Description on the supported data format](tests/data_format.ipynb)
