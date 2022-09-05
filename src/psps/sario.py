@@ -55,16 +55,16 @@ def savem_to_image(m,fname,cmap='jet',vmin=None,vmax=None):
     plt.imsave(fname,colors)
 
 def read_ifg(fname,nrow,ncol):
-    slc = np.fromfile(fname,dtype='float32')
-    slc = np.reshape(slc,(nrow,2*ncol))
-    slc = slc[:,0:2*ncol:2] + 1j * slc[:,1:2*ncol:2]
-    return slc
+    ifg = np.fromfile(fname,dtype='float32')
+    ifg = np.reshape(ifg,(nrow,2*ncol))
+    ifg = ifg[:,0:2*ncol:2] + 1j * ifg[:,1:2*ncol:2]
+    return ifg
 
-def save_ifg(slc,fname):
-    naz,nrg = slc.shape
+def save_ifg(ifg,fname):
+    naz,nrg = ifg.shape
     tosave = np.zeros((naz,nrg*2),dtype='float32')
-    tosave[:,0:2*nrg:2] = np.real(slc)
-    tosave[:,1:2*nrg:2] = np.imag(slc)
+    tosave[:,0:2*nrg:2] = np.real(ifg)
+    tosave[:,1:2*nrg:2] = np.imag(ifg)
     f = open(fname,'w')
     tosave.tofile(f)
     f.close()
