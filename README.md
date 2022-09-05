@@ -10,7 +10,7 @@ Clone to build/install
 ```
 git submodule update --init --recursive
 pip install -e .
-``
+```
 
 ## Tutorial in Jupyter Notebook
 [A tutorial](tests/tutorial.ipynb) is provided to demonstrate how to select PS pixels using the PSPS package.
