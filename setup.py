@@ -60,7 +60,7 @@ setup(
     ext_modules=[ext],
     cmdclass={"build_ext": build_ext},
     install_requires=[
-        "matplotlib"
+        "matplotlib",
         "numpy",
         "scipy",
         "notebook"
