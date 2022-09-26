@@ -90,5 +90,5 @@ max_sim = similarity.max_similarity(
           ifglist,nrow,ncol,ps0=ps_refined,threshold=sim_th,N=20,rdmin=3,rdmax=50)
 max_sim.tofile(os.path.join(output_dir,'max_sim'))
 #max_sim = np.fromfile(os.path.join(output_dir,'max_sim'),dtype=np.float32).reshape(nrow,ncol)
-print('scr values have been saved to '+os.path.join(output_dir,'max_sim'))
+print('Maximum phase similarity values have been saved to '+os.path.join(output_dir,'max_sim'))
 

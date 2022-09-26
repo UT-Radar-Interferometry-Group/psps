@@ -60,6 +60,7 @@ setup(
     ext_modules=[ext],
     cmdclass={"build_ext": build_ext},
     install_requires=[
+        "pybind11",
         "matplotlib",
         "numpy",
         "scipy",

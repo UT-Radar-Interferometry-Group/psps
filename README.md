@@ -5,12 +5,12 @@ The Phase Similarity Persistent Scatterer (PSPS) is an open-source package for I
 This is research code provided to you "as is" with NO WARRANTIES OF CORRECTNESS. Use at your own risk.
 
 ## Installation
-PSPS requires Python3.6+ to run.
-Clone to build/install
+A C++ complier is required to install this package.
+psps requires Python3.6+ to run.
+
 ```
-git clone git@github.com:UT-Radar-Interferometry-Group/psps.git
+git clone https://github.com/UT-Radar-Interferometry-Group/psps.git
 cd psps
-git submodule update --init --recursive
 pip install -e .
 ```
 
