@@ -5,8 +5,8 @@ PYTHON_EXT=`python3-config --extension-suffix`
 default: All
 
 All: similarity.cpp
-	$(CC) -fopenmp -O3 -shared -fPIC $(PYTHON_LIB) -I ../../extern/pybind11/include  -c similarity.cpp
-	$(CC) -fopenmp -O3 -shared -fPIC $(PYTHON_LIB) similarity.o -o similarity$(PYTHON_EXT)
+	$(CC) -fopenmp -O3 -shared -fPIC $(PYTHON_LIB) -I `python3 -m pybind11 --includes` -c similarity.cpp
+	$(CC) -fopenmp -O3 -shared -fPIC $(PYTHON_LIB) -I `python3 -m pybind11 --includes` similarity.o -o similarity$(PYTHON_EXT)
 
 clean:
 	rm -f *.o

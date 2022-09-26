@@ -8,7 +8,7 @@ import os
 from glob import glob
 
 curpath = os.path.abspath(os.path.dirname(__file__))
-sys.path.insert(0, os.path.join(curpath, "extern", "pybind11"))
+#sys.path.insert(0, os.path.join(curpath, "extern", "pybind11"))
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 
 
