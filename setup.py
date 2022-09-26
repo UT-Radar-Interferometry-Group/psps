@@ -54,7 +54,7 @@ setup(
     version=__version__,
     author="Ke Wang",
     author_email="kewang@utexas.edu",
-    url="https://github.com/aik9508/PSInSAR",
+    url="https://github.com/UT-Radar-Interferometry-Group/psps",
     description="Persistent Scatterer selection based on phase similarity",
     long_description="",
     ext_modules=[ext],
