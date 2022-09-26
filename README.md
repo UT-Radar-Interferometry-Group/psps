@@ -8,7 +8,7 @@ This is research code provided to you "as is" with NO WARRANTIES OF CORRECTNESS.
 PSPS requires Python3.6+ to run.
 Clone to build/install
 ```
-git clone git@github.com:UT-Radar-Interferometry-Group/psps.git
+git clone https://github.com/UT-Radar-Interferometry-Group/psps.git
 cd psps
 git submodule update --init --recursive
 pip install -e .
