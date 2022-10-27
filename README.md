@@ -1,6 +1,5 @@
-# PSPS
-## _Persistent Scatterer selection based on Phase Similarity_
-The Phase Similarity Persistent Scatterer (PSPS) is an open-source package for Interferometric Synthetic Aperture Radar (InSAR) data analysis. It reads a stack of interferograms (coregistered and wrapped), and produces a set of persistent scatterer (PS) pixels.
+# Persistent Scatterer selection based on Phase Similarity
+This is an open-source package for Interferometric Synthetic Aperture Radar (InSAR) data analysis. It reads a stack of interferograms (coregistered and wrapped), and produces a set of persistent scatterer (PS) pixels.
 
 This is research code provided to you "as is" with NO WARRANTIES OF CORRECTNESS. Use at your own risk.
 
