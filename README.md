@@ -23,3 +23,8 @@ python test.py
 [How to select PS pixels using the PSPS package](tests/tutorial.ipynb)
 
 [Description on the supported data format](tests/data_format.ipynb)
+
+## Reference
+
+If you find this code useful, please cite:
+> Wang, Ke, and Jingyi Chen. "Accurate persistent scatterer identification based on phase similarity of radar pixels." IEEE Transactions on Geoscience and Remote Sensing 60 (2022): 1-13.
